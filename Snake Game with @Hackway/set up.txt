@@ -1,0 +1,28 @@
+# Snake Game with @Hackway
+The Snake Game is a classic arcade game where the player controls a snake that moves around the game board, eating food and growing longer. The goal is to avoid colliding with walls, obstacles, or the snake's own body. The game ends when the snake collides with any of these obstacles.
+
+## How to Play
+Open the index.html file in a web browser.
+Click the "Start Game!" button to begin.
+Control the snake's movement using the arrow keys or by swiping on mobile devices.
+Guide the snake to eat the red food items to score points and increase its length.
+Avoid colliding with walls, obstacles, or the snake's own body.
+The game ends when the snake collides with an obstacle, and your final score will be displayed.
+Click the "Start Game!" button again to play a new game.
+
+## Features
+The snake moves in a continuous manner, and the player can change its direction using keyboard arrow keys or by swiping on touch devices.
+The game includes randomly generated food items for the snake to eat and score points.
+The snake grows longer each time it eats food.
+The game ends if the snake collides with walls or obstacles, or if it collides with its own body.
+The player's score is displayed during gameplay.
+The game offers three levels of difficulty: easy, medium, and hard. The speed of the snake increases with higher difficulty levels.
+The game is responsive and can be played on both desktop and mobile devices.
+
+## Game Customization
+If you want to customize the game, you can make changes to the following parts of the code:
+
+obstacles array: You can modify the obstacles array to add or remove obstacles from the game board. Each obstacle object should have x and y properties representing its position.
+speed variable: You can adjust the speed of the snake by changing the speed value in milliseconds. A lower value makes the game faster, while a higher value makes it slower.
+CSS styles: You can modify the CSS code to change the appearance of the game board, snake, food, and other elements.
+Feel free to experiment and make the game your own!
